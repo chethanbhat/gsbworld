@@ -1,0 +1,15 @@
+#email, #password, #confirm_password, #firstname, #lastname {
+  width:50%;
+  margin: 5px auto;
+  background-color: #eee;
+  color: #000;
+}
+
+#sign_up, #log_in {
+  padding: 10% 0;
+}
+
+label {
+  color:#ccc;
+  font-size: 1em;
+}
