@@ -4,6 +4,7 @@
 error_reporting(E_ALL);
 
 include('templates/header.html');
+include('templates/user_navigation.html');
 
 $email = "";
 $password = "";
@@ -27,7 +28,7 @@ if((isset($_POST['email']) && !empty($_POST['email'])) && (isset($_POST['passwor
     }
 
 } else {
-    header("Location: login.php");
+    //header("Location: login.php");
 }
 
 
